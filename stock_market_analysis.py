@@ -58,7 +58,7 @@ st.line_chart(ticker_df[["Close","EMA"]])
 
 #num = st.number_input("Enter the number of recent days to display:", min_value=1, max_value=len(ticker_df), value=5)
 
-num = st.number_input("Enter a number:", min_value =1 , max_value =100, value =5)
-if st.button("Calculate Square"):
-    result = num ** 2
-    st.write(f"The square of {num} is {result}!") 
+#num = st.number_input("Enter a number:", min_value =1 , max_value =100, value =5)
+#if st.button("Calculate Square"):
+#    result = num ** 2
+#    st.write(f"The square of {num} is {result}!") 
