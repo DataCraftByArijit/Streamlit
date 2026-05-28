@@ -6,7 +6,7 @@ from curl_cffi import requests
 
 session = requests.Session(impersonate = "chrome")
 
-st.title("Stock market Data Analysis")
+st.title("Stock Market Data Analysis")
 
 ticker_symbol = st.text_input("Enter the stock ticker symbol (e.g., AAPL, MSFT, GOOGL):", "AAPL") # Default value is set to "AAPL"
 
