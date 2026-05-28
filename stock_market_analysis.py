@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 from curl_cffi import requests
-1
+
 session = requests.Session(impersonate = "chrome")
 
 st.title("Stock market Data Analysis")
