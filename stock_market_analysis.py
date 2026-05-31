@@ -10,7 +10,7 @@ st.title("Stock Market Data Analysis")
 
 ticker_symbol = st.text_input("Enter the stock ticker symbol (e.g., AAPL, MSFT, GOOGL):", "AAPL") # Default value is set to "AAPL"
 
-ticker_data = yf.Ticker(ticker_symbol)
+ticker_data = yf.Ticker(ticker_symbol)#, session=session)
 
 #start_date = pd.to_datetime("2020-01-01")
 #end_date = pd.to_datetime("today")
