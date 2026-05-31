@@ -81,7 +81,7 @@ def model_pred(
             float(mileage),
             float(engine),
             float(max_power),
-            float(seats),
+            float(seats)
         ]
     ]
 
@@ -101,7 +101,7 @@ if st.button("Predict"):
         mileage,
         engine,
         max_power,
-        seats,
+        seats
     )
 
     st.write(f"**Predicted Car Price**: {np.round(price,2)} Lakhs (approx.)")
