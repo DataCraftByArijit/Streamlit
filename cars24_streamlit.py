@@ -104,6 +104,6 @@ if st.button("Predict"):
         seats,
     )
 
-    st.write(f"**Predicted Car Price**: {price} Lakhs (approx.)")
+    st.write(f"**Predicted Car Price**: {np.round(price,2)} Lakhs (approx.)")
 else:
     st.write("Click the **Predict** button once you've entered all the details.")
